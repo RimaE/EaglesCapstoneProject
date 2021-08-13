@@ -35,7 +35,7 @@ Scenario: Adding an item to Wish list
 When User click on Laptop&NoteBook option
 And User click on Show all Laptop&NoteBook option
 And User click on heart icon to add 'Song VaIo' laptop to wish list
-Then User should get a message 'You must login or create an account to save Sony VaIo to your wish list!'
+Then User should get a login message 'You must login or create an account to save Sony VaIo to your wish list!'
 
 @ValidateThePriceOfMacBook
 Scenario: Validate the price of MacBook Pro 2000

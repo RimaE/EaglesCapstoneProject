@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 		features =".//src//test//resource//Features",// features tells cucumber options where feature files are located
 		glue = "stepDefinitions",
-		tags = {"@AddAndRemoveMacBook"},
+		tags = {"@RegisterAffiliate"},
 		//glue tells cucubmer options where step Definition classes located
 		dryRun= false, // dry run if sets to false checks if all steps in feature files has step
 		monochrome = true, // if set to true, makes the console output readable.

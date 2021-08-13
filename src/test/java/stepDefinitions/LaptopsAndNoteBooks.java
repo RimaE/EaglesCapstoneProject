@@ -92,15 +92,15 @@ public class LaptopsAndNoteBooks extends Base {
 	}
 
 	
-
-	@Then("^User should see a message 'Success:You have added MacBook Air to your product comparison!'$")
-	public void user_should_see_a_message_Success_You_have_added_MacBook_Air_to_your_product_comparison(String expected) {
-		String actual = laptopNotbook.SuccessCompareMacBookAir();
-		 String expect = expected.substring(0, 7);
-		 Assert.assertEquals(actual, expect);
-		WebDriverUtility.screenShot();
-		logger.info("Message is displayed");
-	}
+//
+//	@Then("^User should see a message 'Success:You have added MacBook Air to your product comparison!'$")
+//	public void user_should_see_a_message_Success_You_have_added_MacBook_Air_to_your_product_comparison(String expected) {
+//		String actual = laptopNotbook.SuccessCompareMacBookAir();
+//		 String expect = expected.substring(0, 7);
+//		 Assert.assertEquals(actual, expect);
+//		WebDriverUtility.screenShot();
+//		logger.info("Message is displayed");
+//	}
 
 	@Then("^User click on Product comparison link$")
 	public void user_click_on_Product_comparison_link()  {
@@ -120,10 +120,10 @@ public class LaptopsAndNoteBooks extends Base {
 	   logger.info("User clicked on Sony Vaio wish list");
 	}
 
-	@Then("^User should get a message 'You must login or create an account to save Sony VaIo to your wish list!'$")
-	public void user_should_get_a_message_You_must_login_or_create_an_account_to_save_Sony_VaIo_to_your_wish_list(String Expected ) throws Throwable {
-		String actual = laptopNotbook.SuccessCompareMacBookAir();
-		 String expect = Expected.substring(0, 7);
+	@Then("^User should get a login message '(.+)'$")
+	public void user_should_get_a_message_You_must_login_or_create_an_account_to_save_Sony_VaIo_to_your_wish_list(String Expected) {
+		String actual = laptopNotbook.LoginMessage();
+		 String expect = Expected.substring(0, 3);
 		 Assert.assertEquals(actual, expect);
 		 WebDriverUtility.screenShot();
 		 logger.info("message is displayed");

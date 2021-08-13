@@ -214,7 +214,10 @@ public class LaptopsNoteBooksPageObject extends Base {
 	 return actual;
 	 
  }
- 
+ public String LoginMessage() {
+	 String actual = SuccessMessage.getText().substring(0, 3);
+	 return actual;
+ }
  public void clickOnCompareLink() {
 	 WebDriverUtility.clickOnElement(ComparisonLink);
  }

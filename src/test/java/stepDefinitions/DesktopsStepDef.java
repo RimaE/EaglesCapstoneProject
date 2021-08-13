@@ -58,16 +58,16 @@ public class DesktopsStepDef extends Base {
 	 public void user_click_add_to_Cart_button() {
 		 desktop.clickonAddToCart();
 	    logger.info("user added item to cart");
-	 }
-
-	 @Then("^User should see a message 'Success: You have added HP LP3065 to your shopping cart!'$")
-	 public void user_should_see_a_message_Success_You_have_added_HP_LP_to_your_shopping_cart(String expectedMess){
-		 String actual = desktop.SuccessMessageDisplayed();
-		 String expect = expectedMess.substring(0, 7);
-		 Assert.assertEquals(actual, expect);
-		 logger.info("user added item to cart");
-		 WebDriverUtility.screenShot();
-		  
+//	 }
+//
+//	 @Then("^User should see a message '(.+)'$")
+//	 public void user_should_see_a_message_Success_You_have_added_HP_LP_to_your_shopping_cart(String expectedMess){
+//		 String actual = desktop.SuccessMessageDisplayed();
+//		 String expect = expectedMess.substring(0, 7);
+//		 Assert.assertEquals(actual, expect);
+//		 logger.info("user added item to cart");
+//		 WebDriverUtility.screenShot();
+//		  
 	 }
 
 	 @When("^User click ADD TO CART option on 'Canon EOS 5D' item$")
@@ -86,7 +86,7 @@ public class DesktopsStepDef extends Base {
     desktop.clickonAddToCart();
     logger.info("user added item to cart");
 	 }
-	 @Then("^User should see message 'Success: You have added Canon EOS 5D to your shopping cart!'$")
+	 @Then("^User should see message '(.+)'$")
 	 public void User_should_see_message_Success_You_have_added_Canon_EOS_5D_to_your_shopping_cart(String Expected)  {
 		 String actual = desktop.SuccessMessageDisplayed();
 		 String expect = Expected.substring(0, 7);
@@ -123,7 +123,7 @@ public class DesktopsStepDef extends Base {
 	    logger.info("user clicked continue button");
 	 }
 
-	 @Then("^User should see a message with 'Thank you for your review\\. It has been submitted to the webmaster for approval\\.'$")
+	 @Then("^User should see a message with '(.+)'$")
 	 public void user_should_see_a_message_with_Thank_you_for_your_review_It_has_been_submitted_to_the_webmaster_for_approval(String expected) throws Throwable {
 		 String actual = desktop.SuccessMessageDisplayed();
 		 String expect = expected.substring(0, 7);

@@ -1673,3 +1673,128 @@
 2021-08-11 16:20:53,763 - logger_File -INFO - User click on X remove button
 2021-08-11 16:20:59,016 - logger_File -INFO - actual equals to expected
 2021-08-11 16:21:08,973 - logger_File -INFO - Add and Remove a Mac book from Cart   passed
+2021-08-12 22:06:54,369 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-08-12 22:06:59,891 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:07:00,302 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:07:00,873 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:07:06,114 - logger_File -INFO - User should see all items present in Desktop page
+2021-08-12 22:07:06,879 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-08-12 22:07:34,421 - logger_File -INFO - Scenario User add HP LP 3065 from Desktops tab to the cart Started
+2021-08-12 22:07:39,254 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:07:39,631 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:07:40,174 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:07:40,286 - logger_File -INFO - User clicked on HPLP add to cart
+2021-08-12 22:07:41,635 - logger_File -INFO - User select 1 quantity
+2021-08-12 22:07:41,775 - logger_File -INFO - user added item to cart
+2021-08-12 22:07:42,593 - logger_File -INFO - User add HP LP 3065 from Desktops tab to the cart   failed
+2021-08-12 22:11:09,168 - logger_File -INFO - Scenario User add HP LP 3065 from Desktops tab to the cart Started
+2021-08-12 22:11:13,915 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:11:14,313 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:11:14,872 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:11:14,961 - logger_File -INFO - User clicked on HPLP add to cart
+2021-08-12 22:11:16,447 - logger_File -INFO - User select 1 quantity
+2021-08-12 22:11:16,568 - logger_File -INFO - user added item to cart
+2021-08-12 22:11:16,776 - logger_File -INFO - User verified message is displayed
+2021-08-12 22:11:17,823 - logger_File -INFO - User add HP LP 3065 from Desktops tab to the cart   passed
+2021-08-12 22:11:49,700 - logger_File -INFO - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-08-12 22:11:54,803 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:11:55,213 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:11:55,763 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:11:55,863 - logger_File -INFO - User clicked add to cart
+2021-08-12 22:11:57,122 - logger_File -INFO - User chose Red color
+2021-08-12 22:11:57,372 - logger_File -INFO - User select 1 quantity
+2021-08-12 22:11:57,432 - logger_File -INFO - user added item to cart
+2021-08-12 22:11:58,239 - logger_File -INFO - User add Canon EOS 5D from Desktops tab to the cart   failed
+2021-08-12 22:14:01,414 - logger_File -INFO - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-08-12 22:14:05,736 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:14:06,207 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:14:06,749 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:14:06,835 - logger_File -INFO - User clicked add to cart
+2021-08-12 22:14:07,905 - logger_File -INFO - User chose Red color
+2021-08-12 22:14:08,143 - logger_File -INFO - User select 1 quantity
+2021-08-12 22:14:08,209 - logger_File -INFO - user added item to cart
+2021-08-12 22:14:08,371 - logger_File -INFO - user added item with success
+2021-08-12 22:14:13,341 - logger_File -INFO - User add Canon EOS 5D from Desktops tab to the cart   passed
+2021-08-12 22:15:00,427 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab Started
+2021-08-12 22:15:05,734 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:15:06,120 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:15:07,828 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:15:09,713 - logger_File -INFO - User clicked on item
+2021-08-12 22:15:09,796 - logger_File -INFO - User clicked on Write a Review
+2021-08-12 22:15:10,192 - logger_File -INFO - User filled in review info
+2021-08-12 22:15:10,242 - logger_File -INFO - user clicked continue button
+2021-08-12 22:15:11,062 - logger_File -INFO - User add a review to Canon EOS 5D item in Desktops tab   failed
+2021-08-12 22:16:30,132 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab Started
+2021-08-12 22:16:34,531 - logger_File -INFO - Retail Website is opened
+2021-08-12 22:16:35,036 - logger_File -INFO - User clicked on Desktop tab
+2021-08-12 22:16:35,701 - logger_File -INFO - user click on Show All desktops
+2021-08-12 22:16:36,825 - logger_File -INFO - User clicked on item
+2021-08-12 22:16:36,890 - logger_File -INFO - User clicked on Write a Review
+2021-08-12 22:16:37,277 - logger_File -INFO - User filled in review info
+2021-08-12 22:16:37,343 - logger_File -INFO - user clicked continue button
+2021-08-12 22:16:37,497 - logger_File -INFO - verify message is displayed
+2021-08-12 22:16:38,483 - logger_File -INFO - User add a review to Canon EOS 5D item in Desktops tab   passed
+2021-08-13 08:09:44,180 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2021-08-13 08:09:49,640 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:09:49,734 - logger_File -INFO - user clicked on tab
+2021-08-13 08:09:50,337 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:09:51,438 - logger_File -INFO - user clicked on item
+2021-08-13 08:09:51,585 - logger_File -INFO - user added item to cart
+2021-08-13 08:09:51,751 - logger_File -INFO - User verified message is displayed
+2021-08-13 08:09:52,026 - logger_File -INFO - actual equals to expected
+2021-08-13 08:09:52,092 - logger_File -INFO - user clicked on cart total
+2021-08-13 08:09:52,157 - logger_File -INFO - User click on X remove button
+2021-08-13 08:09:57,392 - logger_File -INFO - actual equals to expected
+2021-08-13 08:10:03,341 - logger_File -INFO - Add and Remove a Mac book from Cart   passed
+2021-08-13 08:10:38,922 - logger_File -INFO - Scenario Product Comparison Started
+2021-08-13 08:10:44,756 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:10:44,869 - logger_File -INFO - user clicked on tab
+2021-08-13 08:10:45,590 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:10:45,686 - logger_File -INFO - user clicked on macbook compare link
+2021-08-13 08:10:45,749 - logger_File -INFO - user clicked on macbook air compare
+2021-08-13 08:10:46,525 - logger_File -INFO - Product Comparison   failed
+2021-08-13 08:14:50,228 - logger_File -INFO - Scenario Product Comparison Started
+2021-08-13 08:14:54,615 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:14:54,707 - logger_File -INFO - user clicked on tab
+2021-08-13 08:14:55,159 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:14:55,229 - logger_File -INFO - user clicked on macbook compare link
+2021-08-13 08:14:55,287 - logger_File -INFO - user clicked on macbook air compare
+2021-08-13 08:14:55,388 - logger_File -INFO - User verified message is displayed
+2021-08-13 08:14:56,053 - logger_File -INFO - user clicked comparison link
+2021-08-13 08:14:56,284 - logger_File -INFO - Chart is displayed
+2021-08-13 08:14:57,031 - logger_File -INFO - Product Comparison   passed
+2021-08-13 08:15:26,299 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2021-08-13 08:15:31,208 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:15:31,312 - logger_File -INFO - user clicked on tab
+2021-08-13 08:15:31,879 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:15:31,968 - logger_File -INFO - User clicked on Sony Vaio wish list
+2021-08-13 08:15:32,727 - logger_File -INFO - Adding an item to Wish list   failed
+2021-08-13 08:21:33,778 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2021-08-13 08:21:38,520 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:21:38,629 - logger_File -INFO - user clicked on tab
+2021-08-13 08:21:39,106 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:21:39,184 - logger_File -INFO - User clicked on Sony Vaio wish list
+2021-08-13 08:21:40,139 - logger_File -INFO - Adding an item to Wish list   failed
+2021-08-13 08:24:26,517 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2021-08-13 08:24:30,587 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:24:30,670 - logger_File -INFO - user clicked on tab
+2021-08-13 08:24:31,557 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:24:31,644 - logger_File -INFO - User clicked on Sony Vaio wish list
+2021-08-13 08:24:32,160 - logger_File -INFO - message is displayed
+2021-08-13 08:24:32,928 - logger_File -INFO - Adding an item to Wish list   passed
+2021-08-13 08:25:01,473 - logger_File -INFO - Scenario Validate the price of MacBook Pro 2000 Started
+2021-08-13 08:25:05,918 - logger_File -INFO - Retail Website is opened
+2021-08-13 08:25:06,007 - logger_File -INFO - user clicked on tab
+2021-08-13 08:25:06,433 - logger_File -INFO - User clicked on show all laptops and Notbbooks
+2021-08-13 08:25:07,466 - logger_File -INFO - User clicked on MacBook Pro
+2021-08-13 08:25:07,761 - logger_File -INFO - User verified that $2000 dollar tag is present
+2021-08-13 08:25:08,527 - logger_File -INFO - Validate the price of MacBook Pro 2000   passed
+2021-08-13 19:05:22,748 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-13 19:05:28,566 - logger_File -INFO - Retail Website is opened
+2021-08-13 19:05:29,138 - logger_File -INFO - User clicked on MyAccount
+2021-08-13 19:05:29,480 - logger_File -INFO - User clicked on login
+2021-08-13 19:05:29,615 - logger_File -INFO - User entered email
+2021-08-13 19:05:29,703 - logger_File -INFO - User entered password
+2021-08-13 19:05:30,960 - logger_File -INFO - User clicked on login button
+2021-08-13 19:05:36,138 - logger_File -INFO - user logged to myAccount Dashboard
+2021-08-13 19:05:47,205 - logger_File -INFO - Register as an Affiliate user with Cheque Payment Method   failed
