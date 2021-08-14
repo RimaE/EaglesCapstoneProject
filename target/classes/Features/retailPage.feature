@@ -4,7 +4,7 @@ Feature: Retail Page
     Given User is on Retail Website
     And User click on MyAccount
     When User click on Login
-    And User enter username 'Saleh@gmail.com' and password 'eagles'
+    And User enter username 'ruru@gmail.com' and password 'eagles'
     And User click on Login button
     Then User should be logged in to MyAccount dashboard
 
@@ -33,6 +33,6 @@ Feature: Retail Page
     When User click on 'Edit your account information' link
     And User modify below information
       | firstName | lastName | email | telephone |
-      |	Rima| Elayan| Saleh@gmail.com | 5715278782 |
+      |	Rima| Elayan| ahmad@gmail.com | 5715278782 |
     And  User click on continue button
     Then User should see a message 'Success: Your account has been successfully updated'
